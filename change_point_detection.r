@@ -1,4 +1,5 @@
 # change in variance
+library(changepoint)
 set.seed(1)
 x=c(rnorm(100,0,1),rnorm(100,0,10))
 ansvar=cpt.var(x)
